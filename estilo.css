@@ -3,6 +3,7 @@ html{
     padding: 0px;
     background: black;
 }
+
 body {
 	
     padding: 0px;
@@ -27,7 +28,7 @@ video{
 	left: 0;
 	display: block;
 	width: 100%;
-	opacity:0.10;
+	opacity:0.0;
 	-moz-opacity: 0.10;
 	filter: alpha(opacity=10);
 	background: black;
@@ -65,4 +66,16 @@ nav li:hover{
 }
 nav a:hover{
 	font-weight: 1000;
+}
+
+.login{
+	display: flex;
+	position: relative;
+	margin: -215px 600px 0px 600px;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	background: #2980b9;
 }
