@@ -5,16 +5,22 @@ html{
 }
 
 body {
-	
+	margin: 0px;
     padding: 0px;
     font-size: 16px;
     font-family: 'Roboto', sans-serif; 
 }
 
 .menu{
+	display: flex;
 	position: relative;
-	text-align: center;
+	margin: 0px;
+    padding: 0px;
+
+	align-items: center;
     font-family: 'Roboto', sans-serif;
+    background: #080717;
+
 }
 
 header{
@@ -28,10 +34,10 @@ video{
 	left: 0;
 	display: block;
 	width: 100%;
-	opacity:0.0;
+	opacity:0.10;
 	-moz-opacity: 0.10;
 	filter: alpha(opacity=10);
-	background: black;
+
 }
 
 .conteudo{
@@ -44,7 +50,6 @@ video{
 }
 
 .conteudo b{
-	
 	font-size: 80px;
 	color: white;
 }
@@ -71,7 +76,7 @@ nav a:hover{
 .login{
 	display: flex;
 	position: relative;
-	margin: -215px 600px 0px 600px;
+	margin: -215px 580px 150px 580px;
 	padding: 10px;
 	font-size: 20px;
 	color: white;
