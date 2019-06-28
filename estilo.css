@@ -18,7 +18,7 @@ body {
     padding: 0px;
 	align-items: center;
     font-family: 'Roboto', sans-serif;
-    background: #080717;
+    background: #2c3e50;
 }
 
 header{
@@ -32,9 +32,9 @@ video{
 	left: 0;
 	display: block;
 	width: 100%;
-	opacity:0.10;
-	-moz-opacity: 0.10;
-	filter: alpha(opacity=10);
+	opacity:0.30;
+	-moz-opacity: 0.30;
+	filter: alpha(opacity=30);
 
 }
 
@@ -74,11 +74,30 @@ nav a:hover{
 .login{
 	display: flex;
 	position: relative;
-	margin: -215px 580px 150px 580px;
-	padding: 10px;
+	margin: -215px 580px 10px 580px;
+	padding: 5px 5px 5px 0px;
 	font-size: 20px;
 	color: white;
+	justify-content: right;
+	align-items: right;
+	background: #2c3e50;
+}
+
+ul.log {
+     list-style-type:none
+ }
+
+ a:link 
+{ 
+text-decoration:none; 
+} 
+
+.sobre{
+	display: flex;
+	position: relative;
+	margin: 100px;
+    padding: 0px;
 	justify-content: center;
 	align-items: center;
-	background: #2980b9;
+	color: #fff;
 }
