@@ -53,7 +53,7 @@ video{
 }
 
 nav{
-	display: inline-block;
+	display: flex;
 	vertical-align: left;
 }
 
@@ -74,17 +74,18 @@ nav a:hover{
 .login{
 	display: flex;
 	position: relative;
-	margin: -215px 580px 10px 580px;
-	padding: 5px 5px 5px 0px;
+	margin: -215px 685px 20px 700px;
+	padding: 10px;
 	font-size: 20px;
 	color: white;
 	justify-content: right;
-	align-items: right;
+	align-items: center;
 	background: #2c3e50;
 }
 
 ul.log {
-     list-style-type:none
+     list-style-type:none;
+     display: inline-center;
  }
 
  a:link 
@@ -95,9 +96,32 @@ text-decoration:none;
 .sobre{
 	display: flex;
 	position: relative;
-	margin: 100px;
+	margin: 200px;
     padding: 0px;
 	justify-content: center;
 	align-items: center;
 	color: #fff;
+	background: #2c3e50;
+}
+
+.evento{
+	display: flex;
+	position: relative;
+	margin: 50px 200px 50px 200px;
+    padding: 0px;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background: #2c3e50;
+}
+
+.perfil{
+	display: flex;
+	position: relative;
+	margin: 50px 300px 100px 300px;
+    padding: 0px;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background: #2c3e50;
 }
